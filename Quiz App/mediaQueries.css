@@ -1,0 +1,112 @@
+@media (max-width: 414px){
+    body{
+        overflow-y: scroll;
+        height: 120vh;
+    }
+
+    .quiz-container{
+        width: 350px;
+    }
+
+    h4{
+        width: 22%;
+    }
+
+    .start-text{
+        width: 350px;
+        display: grid;
+        place-items: center;
+    }
+
+    .start-text h1{
+        width: 70%;
+        font-size: 1.5em;
+        margin-top: 3em;
+    }
+
+    .quiz-content{
+        width: 80%;
+    }
+
+    ul li{
+        text-align: start;
+    }
+
+    .end-text{
+        font-size: 1.2em;
+        width: 75%;
+    }
+
+    .endBtn{
+        bottom: 4em;
+    }
+}
+
+@media (max-width: 375px){
+    .quiz-container{
+        width: 320px;
+        height:480px;
+    }
+
+    .start{
+        margin-bottom: 4em;
+    }
+
+    .start-text{
+        width: 320px;
+    }
+
+    .start-text h1{
+        width: 70%;
+        font-size: 1.5em;
+        margin-top: 3em;
+    }
+
+    h4{
+        width: 22%;
+    }
+
+    .quiz-content{
+        width: 70%;
+    }
+
+    .quiz-content h2{
+        font-size: 1.1em;
+    }
+
+    ul{
+        padding-bottom: 1em;
+    }
+
+    ul li label{
+        font-size: 0.8em;
+    }
+
+    #codeLink{
+        font-size: 0.8em;
+        text-align: center;
+        padding: 12px 20px;
+        margin-bottom: 5em;
+    }
+
+}
+
+@media (max-width: 320px){
+   
+    .quiz-container{
+        width: 280px;
+        height: 500px;
+    }
+
+    .start-text{
+        width: 280px;
+    }
+    
+    .start{
+        margin-bottom: 5em;
+    }
+
+    #codeLink{
+        margin-bottom: -2em;
+    }
+}
