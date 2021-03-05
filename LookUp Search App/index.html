@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQuery.css">
+    <script src="https://kit.fontawesome.com/4cc7ccbe37.js" crossorigin="anonymous"></script>
+
+    <title>LookUp Search</title>
+</head>
+<body>
+    <main>
+        <h1>lookUp</h1>
+        <div class="colorOptions">
+            <div class="red"></div>
+            <div class="yellow"></div>
+            <div class="blue"></div>
+            <div class="original"></div>
+        </div>
+        <form id="searchForm">
+            <div class="input-wrapper">
+                <input type="text" id="search" autocomplete="off">
+                <div class="buttons">
+                    <a id="clearBtn"><i class="fas fa-times"></i></a>
+                    <a id="searchBtn" ><i class="fas fa-search"></i></a>
+                </div>
+            </div>
+        </form>
+
+        <div id="resultList"></div>
+    </main>
+
+    <footer>
+        <p><a href="https://www.wikipedia.org/" target="_blank">Powered By Wikipedia <i class="fas fa-globe"></i></a></p>
+        <p><a href="https://github.com/MayyanT" target="_blank">Coded By Mayyan To</a></p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
