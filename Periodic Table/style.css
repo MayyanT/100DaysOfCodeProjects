@@ -32,7 +32,7 @@ body{
 .legend{
     position: absolute;
     top: 5rem;
-    left: 18rem;
+    left: 16rem;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3,1fr);
