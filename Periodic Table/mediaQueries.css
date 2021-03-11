@@ -1,0 +1,289 @@
+@media(max-width: 1366px){
+    .table-content{
+        max-width: 1360px;
+        margin-top: 9rem;
+        display: grid;
+        grid-template-columns: repeat(18, 74px);
+        grid-template-rows: repeat(auto-fit);
+    }
+
+    .element{
+        font-size: 0.75rem;
+        height: 65px;
+    }
+
+    .element h2{
+        font-size: 1rem;
+    }
+
+    .extraEl,
+    .extraElTwo{
+        font-size: 0.4rem;
+        height: 65px;
+        width: 67px;
+    }
+
+    .legend{
+        top: 8rem;
+        left: 12rem;
+    }
+}
+
+/**/
+@media(max-width: 1350px){
+    .table-content{
+        max-width: 1350px;
+        margin-top: 5rem;
+        display: grid;
+        grid-template-columns: repeat(18, 70px);
+        grid-template-rows: repeat(auto-fit);
+    }
+
+    .table-content > div h6{
+        display: none;
+    }
+
+    .element{
+        font-size: 0.75rem;
+    }
+}
+
+/**/
+@media(max-width: 1024px){
+    .table-content{
+        max-width: 1000px;
+        margin-top: 6rem;
+        grid-template-columns: repeat(18, 50px);
+    }
+
+    .element{
+        height: 50px;
+    }
+
+    .element h2{
+        font-size: 1rem;
+    }
+
+    .extraEl,
+    .extraElTwo{
+        height: 49px;
+        width: 47px;
+    }
+
+    .extra-class{
+        display: none;
+    }
+
+    .legend{
+        top: 5rem;
+        left: 12rem;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+    
+    .alkali-metals,
+    .alkaline-earth-metals,
+    .transition-metals,
+    .lanthanides,
+    .actinides,
+    .post-transition-metals,
+    .metalloids,
+    .reactive-nonmetals,
+    .noble-gases,
+    .unknown-chemical-properties{
+        width: 10px;
+        height: 10px;
+        margin-right: 7px;
+    }
+}
+
+/**/
+@media(max-width: 812px){
+    .table-content{
+        max-width: 780px;
+        margin-bottom: 8rem;
+        margin-top: 12rem;
+        display: grid;
+        grid-template-columns: repeat(18, 42px);
+        grid-template-rows: repeat(auto-fit);
+    }
+
+    .extraEl,
+    .extraElTwo{
+        height: 50px;
+        width: 38px;
+    }
+
+    .legend{
+        left: 6rem;
+    }
+
+    .legend > div{
+        font-weight: 400;
+    }
+}
+
+/**/
+@media(max-width: 768px){
+    .table-content{
+        margin-top: 10rem;
+        max-width: 750px;
+        grid-template-columns: repeat(18, 40px);
+    }
+
+    .extraEl,
+    .extraElTwo{
+        height: 50px;
+        width: 37px;
+    }
+
+    .legend{
+        top: 3.5rem;
+        left: 8rem;
+    }
+}
+
+/**/
+@media(max-width: 736px){
+    .table-content{
+        max-width: 720px;
+        margin-top: 10rem;
+        grid-template-columns: repeat(18, 38px);
+    }
+
+    .element{
+        border-radius: 1px;
+    }
+
+    .extraEl,
+    .extraElTwo{
+        height: 50px;
+        width: 35px;
+        text-align: center;
+        border-radius: 1px;
+    }
+}
+
+/**/
+@media(max-width: 667px){
+    .table-content{
+        max-width: 620px;
+        margin-top: 10rem;
+        grid-template-columns: repeat(18, 34px);
+    }
+
+    .extraEl,
+    .extraElTwo{
+        height: 50px;
+        width: 31px;
+        text-align: center;
+    }
+
+    .legend{
+        top: 3.5rem;
+        left: 8rem;
+    }
+}
+
+/**/
+@media(max-width: 600px){
+    .table-content{
+        max-width: 580px;
+        margin-top: 14rem;
+        grid-template-columns: repeat(18, 32px);
+    }
+
+    .element{
+        font-size: 0.5rem;
+        height: 34px;
+        border-radius: 2px;
+    }
+
+    .element h2{
+        font-size: 0.5rem;
+    }
+
+    .extraEl,
+    .extraElTwo{
+        height: 34px;
+        width: 29px;
+        border-radius: 2px;
+        text-align: center;
+    }
+
+    .legend{
+        top: 5rem;
+        left: 7rem;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+}
+
+/**/
+@media(max-width: 568px){
+    .table-content{
+        max-width: 550px;
+        margin-top: 28rem;
+        margin-bottom: 10rem;
+        grid-template-columns: repeat(18, 30px);
+    }
+
+    .element h2{
+        font-size: 0.65rem;
+    }
+    
+    .extraEl,
+    .extraElTwo{
+        font-size: 0.3rem;
+        height: 34px;
+        width: 27px;
+    }
+
+    .legend{
+        top: 4rem;
+        left: 3rem;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(1,1fr);
+    }
+
+    
+    .legend > div{
+        font-weight: 400;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media(max-width: 414px){
+    .table-content{
+        max-width: 350px;
+        margin-top: 28rem;
+        margin-bottom: 10rem;
+        grid-template-columns: repeat(18, 19px);
+    }
+
+    .element{
+        font-size: 0.6rem;
+        height: 30px;
+        border-radius: 2px;
+    }
+
+    .element h2{
+        font-size: 0.65rem;
+    }
+    
+    .extraEl,
+    .extraElTwo{
+        font-size: 0.3rem;
+        height: 30px;
+        width: 16px;
+    }
+
+    .legend{
+        top: 4rem;
+        left: 3rem;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(1,1fr);
+    }
+}
